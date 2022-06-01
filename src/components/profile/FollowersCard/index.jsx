@@ -15,10 +15,10 @@ const FollowersCard =()=>{
                                <img src={follower.img} alt={follower.username} className="follower-image" />
                                <div className="name">
                                    <span>{follower.name}</span>
-                                   <span>{follower.username}</span>
+                                   <span>@{follower.username}</span>
                                </div>
                            </div>
-                           <button>Follow</button>
+                           <button className="button followers-btn">Follow</button>
                         </div>
                     )
                 })
