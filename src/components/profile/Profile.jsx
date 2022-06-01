@@ -2,6 +2,7 @@ import React from "react";
 import FollowersCard from "./FollowersCard";
 import LogoSearch from "./LogoSearch";
 import ProfileCard from "./ProfileCard";
+import './profile.css'
 
 const Profile = ()=>{
     return (

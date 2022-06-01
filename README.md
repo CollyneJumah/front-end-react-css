@@ -1,6 +1,6 @@
 # Building beautifu UI using CSS.
 Check out final project output
-![](img/final-project-output.png)
+![](public_images/final-project-output.png)
 
 ## Dependencies required
 - React Unicon `npm install --save @iconscout/react-unicons`
@@ -34,7 +34,7 @@ We add 2 divisions of class blur. `<div className="blur"></div>` in our main App
 }
 ~~~
 ### The final output
-![](img/blur-output.png)
+![](public_images/blur-output.png)
 ### We add another `<div className="blur"></div>` and apply inline styling to position the blur effect
 ~~~
  <div className="App">
@@ -43,7 +43,7 @@ We add 2 divisions of class blur. `<div className="blur"></div>` in our main App
 </div>
 ~~~
 Output
-![](img/output-top-left-blurs.png)
+![](public_images/output-top-left-blurs.png)
 <hr />
 
 ## App Home page
