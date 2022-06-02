@@ -1,0 +1,12 @@
+.topnav-icons{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.topnav-icons>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.topnav-icons:hover{
+    cursor: pointer;
+}

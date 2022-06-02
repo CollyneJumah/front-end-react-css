@@ -49,5 +49,5 @@
 }
 /* remove the scrollbar*/
 ::-webkit-scrollbar{
-  display: none;
+  display: flow-root;
 }
