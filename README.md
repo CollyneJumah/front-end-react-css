@@ -64,3 +64,24 @@ Create a page folder in src and add home folder
 
 - Import your home component to the App.js (Parent component).
 ### App Home Component Structure
+#### 1. Post Section
+```
+├───components
+│   ├───PostSection
+│   │   ├───Post
+│   │   ├───PostShare
+│   │   └───UsersPosts
+│   ├───profile
+│   │   ├───FollowersCard
+│   │   ├───LogoSearch
+│   │   └───ProfileCard
+│   └───RightSidebar
+│       ├───Topnav
+│       └───Trendings
+├───data
+├───img
+└───pages
+    └───home
+
+
+```
