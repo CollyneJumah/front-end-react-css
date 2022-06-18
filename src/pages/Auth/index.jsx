@@ -12,12 +12,31 @@ const Authentication=()=>{
                    <h6>Happy Social of interaction.</h6>
                </div>
            </div>
-          <SignUp />
+          <LoginForm />
         </div>
     )
 }
+const LoginForm =()=>{
+    return (
+        <div className="right-side-form">
+            <form className="info-form auth-form">
+                <h2>Login Social</h2>
+                <div>
+                    <input type="text" name="username" className="info-input" placeholder="Username"/>
+                </div>
+                <div>
+                    <input type="password" name="password" className="info-input" placeholder="password"/>
+                </div>
+                <div>
+                    <span style={{fontSize:"12px"}}>Don't have an account ? <a href={<SignUp />}>Sign up</a>.</span>
+                    <button type="submit" className="button info-btn">Login</button>
+                </div>
+            </form>
+        </div>
+        )
+}
 
-function SignUp()
+const SignUp=()=>
 {
     return (
 
