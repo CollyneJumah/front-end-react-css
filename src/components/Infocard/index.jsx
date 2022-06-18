@@ -1,11 +1,10 @@
-import React from "react"
+import React, { useState } from "react"
 import './info-card.css'
 import {UilPen} from '@iconscout/react-unicons'
-import { useSetState } from "@mantine/hooks"
 import ProfileModalForm from "../Modals/ProfileModalForm"
 
 const InfoCard =() =>{
-   const [modalOpened, setModalOpened] = useSetState(false)
+   const [modalOpened, setModalOpened] = useState(false)
     return (
         <div className="info-card">
             <div className="info-head">
