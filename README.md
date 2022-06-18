@@ -85,3 +85,8 @@ Create a page folder in src and add home folder
 
 
 ```
+
+### React Modal form
+This project uses [Mantine Modal library](https://mantine.dev/core/modal/).
+#### How to Add modal to your form ?
+##### 1. Create a `useState()` of modal set it to false, update to true only when the button is clicked
