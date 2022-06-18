@@ -67,6 +67,10 @@ Create a page folder in src and add home folder
 #### 1. Post Section
 ```
 ├───components
+│   ├───Infocard
+│   ├───Modals
+│   │   ├───ProfileModalForm
+│   │   └───ShareModel
 │   ├───PostSection
 │   │   ├───Post
 │   │   ├───PostShare
@@ -75,15 +79,16 @@ Create a page folder in src and add home folder
 │   │   ├───FollowersCard
 │   │   ├───LogoSearch
 │   │   └───ProfileCard
+│   ├───ProfileLeft
 │   └───RightSidebar
 │       ├───Topnav
 │       └───Trendings
 ├───data
 ├───img
 └───pages
-    └───home
-
-
+    ├───Auth
+    ├───home
+    └───Profiles
 ```
 
 ### React Modal form

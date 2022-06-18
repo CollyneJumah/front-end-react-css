@@ -9,14 +9,13 @@ const  ProfileModalForm=({modalOpened,setModalOpened})=> {
       overlayColor={theme.colorScheme === 'dark' ? theme.colors.dark[9] : theme.colors.gray[2]}
       overlayOpacity={0.55}
       overlayBlur={3}
-      size="55%"
+      size="50%"
       opened ={modalOpened}
       onClose={() => setModalOpened(false)}
       closeButtonLabel="Close authentication modal"
       closeOnClickOutside={true}
-      closeOnEscape="true"
+      closeOnEscape={true}
     >
-      {/* Modal content */}
       <form className="info-form">
           <h3>Profile Form</h3>
             <div>
